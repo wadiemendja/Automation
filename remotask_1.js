@@ -17,3 +17,4 @@ setInterval(() => {
     if (document.body.innerText.indexOf('Your task queue is empty') == 0)
         clearInterval(loop)
 }, 5 * 1000);
+

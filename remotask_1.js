@@ -1,6 +1,3 @@
-// video.autoplay = true;
-// video.load();
-
 const loop = setInterval(() => {
 
     const video = document.querySelector('video');

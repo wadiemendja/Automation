@@ -10,4 +10,3 @@ function grabArticlesLinks () {
         linksTable.push(table[i].substring(0, table[i].indexOf('?')));
     return  linksTable;
 }
-// URL = 

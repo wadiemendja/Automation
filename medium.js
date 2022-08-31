@@ -1,6 +1,5 @@
 // URL = https://medium.com/tag/' + medium_topic + '/latest
 function grabArticlesLinks() {
-
     const all_articles = document.querySelectorAll(".gy.l");
     let table = [];
     all_articles.forEach((element) => {
@@ -10,12 +9,10 @@ function grabArticlesLinks() {
     for (let i = 0; i < table.length; i++)
         linksTable.push(table[i].substring(0, table[i].indexOf('?')));
     return linksTable;
-
 }
 
 // URL = https://medium.com/{Article_URL}
 function getArticleAndFilter() {
-
     const upgradeBtn = document.querySelector('#root > div > div.s > div.s.c > div > div > div > h4 > div.n.lz.ma > div > div');
     const isPremuim = upgradeBtn != null ? true : false;
     const title = document.querySelectorAll("h1")[0].innerText;
@@ -49,6 +46,5 @@ function getArticleAndFilter() {
         description: meta_description,
         isPremuim: isPremuim,
         origin: origin
-    };
-    
+    };   
 }

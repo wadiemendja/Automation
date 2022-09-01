@@ -1,5 +1,4 @@
 const loop = setInterval(() => {
-    
     const video = document.querySelector('video');
     video.play();
     video.addEventListener("ended", () => {
@@ -9,7 +8,6 @@ const loop = setInterval(() => {
             document.querySelector('.primary').click();
         }, 1000);
     });
-
 }, (document.querySelector('video').duration + 5) * 1000);
 
 setInterval(() => {

@@ -1,3 +1,4 @@
+
 const loop = setInterval(() => {
     const video = document.querySelector('video');
     video.play();
@@ -12,8 +13,6 @@ const loop = setInterval(() => {
 
 // clear loop interval if there're no task available
 setInterval(() => {
-
     if (document.body.innerText.indexOf('Your task queue is empty') == 0)
         clearInterval(loop)
-
 }, 5 * 1000);

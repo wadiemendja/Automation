@@ -1,4 +1,3 @@
-
 // URL = https://medium.com/tag/' + medium_topic + '/latest
 function grabArticlesLinks() {
     const all_articles = document.querySelectorAll(".gy.l");

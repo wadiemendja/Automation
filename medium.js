@@ -11,7 +11,6 @@ function grabArticlesLinks() {
     return linksTable;
 }
 
-
 // URL = https://medium.com/{Article_URL}
 function getArticleAndFilter() {
     const upgradeBtn = document.querySelector('#root > div > div.s > div.s.c > div > div > div > h4 > div.n.lz.ma > div > div');

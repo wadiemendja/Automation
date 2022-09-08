@@ -1,4 +1,3 @@
-
 // auto clicks
 const loop = setInterval(() => {
     const video = document.querySelector('video');
@@ -11,9 +10,6 @@ const loop = setInterval(() => {
         }, 1000);
     });
 }, (document.querySelector('video').duration + 5) * 1000);
-
-
-
 
 // clear loop interval if there're no task available
 setInterval(() => {

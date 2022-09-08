@@ -1,5 +1,3 @@
-
-
 // URL = https://medium.com/tag/' + medium_topic + '/latest
 function grabArticlesLinks() {
     const all_articles = document.querySelectorAll(".gy.l");
@@ -12,8 +10,6 @@ function grabArticlesLinks() {
         linksTable.push(table[i].substring(0, table[i].indexOf('?')));
     return linksTable;
 }
-
-
 // URL = https://medium.com/{Article_URL}
 function getArticleAndFilter() {
     const upgradeBtn = document.querySelector('#root > div > div.s > div.s.c > div > div > div > h4 > div.n.lz.ma > div > div');
